@@ -1,3 +1,13 @@
 # humbliepieserver.github.io
 To have a growth mindset one must be able to understand and comprehend any new information that they learn and allow it to further the way they think giving a person multiple views of perspective. 
-<ol> I always say stay focused stay rigorous and if you fail to plan then you plan to fail
+ I always say stay focused stay rigorous and if you fail to plan then you plan to fail
+ Learning Markdown Notes: A markdown is a type of way you are able to style the text of a web page.  You can use a variety of formats from bold to italic while also being allowed to upload images as well.
+ Markdowns can be used on github in subsections such as Gist or files labeled as ".md" or ".markdown"  Using markdonws is fairly simple when you're only editing certain words or lines of your text on the web.
+ Headers for text files are labeled as "<h1> tags but can increase by number depending on the number of headers you'd like to add to your webpage
+ There are many other tags that you are able to use with each tag having a differnt purpose.  Examples of other tags consist of: <body> <p> <br> <em> <ul> and <ol>
+ The tag <ul> for example is a tag used on your text file to help start a list and you can allow tags to interact with each other becuse some fall into the same category as others.
+ The tag <ol> for example would be placed inside of the open/closed <ul> tag to make an "ordered list" <ul> stands for "unordered list"
+Editig for web doesn't have to stop there though for you are alos able to add images into the text file by using what coders call an image tag or <img></img>
+In able to insert an actual image you must insert the url of whatever image you're trying to use.  The url is what appears at the top of the adress bar.  
+Inserting images will only work if the image you want to use can be found on the internet but it won't all come together unless you have a source to better express the image you want to upload
+Example: (<img_src="")
