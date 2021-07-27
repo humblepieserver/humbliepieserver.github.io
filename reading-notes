@@ -11,3 +11,147 @@ Editig for web doesn't have to stop there though for you are alos able to add im
 In able to insert an actual image you must insert the url of whatever image you're trying to use.  The url is what appears at the top of the adress bar.  
 Inserting images will only work if the image you want to use can be found on the internet but it won't all come together unless you have a source to better express the image you want to upload
 Example: (<img_src="")
+JavaScript has many different language operators, expressions and keywords that have different meanings
+Examples of a couple are function* which is a keyword that deifnes a generator function expression.  We also have something called a n async fnuction.
+[]
+Array initializer/literal syntax.
+
+{}
+Object initializer/literal syntax.
+
+/ab+c/i
+Regular expression literal syntax.
+
+( )
+Grouping operator.
+These are some examples of the primary JavaScript expressions, but primary isn't the only category because there are also "left hand side expressions.
+Left values are the destination of an assignment. Examples of a left hand side expression and how to interpret them into your JavaScript would be :
+Property accessors
+Member operators provide access to a property or method of an object (object.property and object["property"]).
+
+new
+The new operator creates an instance of a constructor.
+
+new.target
+In constructors, new.target refers to the constructor that was invoked by new.
+
+import.meta
+An object exposing context-specific metadata to a JavaScript module.
+
+super
+The super keyword calls the parent constructor.
+
+...obj
+Spread syntax allows an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) are expected.
+Unary operators are operations with only one operand
+delete
+The delete operator deletes a property from an object.
+
+void
+The void operator discards an expression's return value.
+
+typeof
+The typeof operator determines the type of a given object.
+
++
+The unary plus operator converts its operand to Number type.
+
+-
+The unary negation operator converts its operand to Number type and then negates it.
+
+~
+Bitwise NOT operator.
+
+!
+Logical NOT operator.
+Arithmetic operators take many numerical values that can be either literas or variables as theiroperands and reduce them to a single value.
++
+Addition operator.
+
+-
+Subtraction operator.
+
+/
+Division operator.
+
+*
+Multiplication operator.
+
+%
+Remainder operator.
+
+**
+Exponentiation operator.
+Relationmal operators is known as a comparison operator which compares its opeands and returns a Boolean value based on whether the comparison is true
+in
+The in operator determines whether an object has a given property.
+
+instanceof
+The instanceof operator determines whether an object is an instance of another object.
+
+<
+Less than operator.
+
+>
+Greater than operator.
+
+<=
+Less than or equal operator.
+
+>=
+Greater than or equal operator.
+Loops offer a quick and easy way to do something repeatedly. A loop helps guide you and gives you directions to where certain steps need specific action. There are many different kinds of loops, but they all essentially do the same thing: they repeat an action some number of times. 
+There are a variety of loop mechanisms  which all determine the start and end points of the loop.
+The statements for loops provided in JavaScript are:
+
+for statement
+do...while statement
+while statement
+labeled statement
+break statement
+continue statement
+for...in statement
+for...of statement
+A for loop repeats until a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C for loop.
+
+A for statement looks as follows:
+
+for ([initialExpression]; [conditionExpression]; [incrementExpression])
+  statement
+Copy to Clipboard
+When a for loop executes, the following occurs:
+
+The initializing expression initialExpression, if any, is executed. This expression usually initializes one or more loop counters, but the syntax allows an expression of any degree of complexity. This expression can also declare variables.
+The conditionExpression expression is evaluated. If the value of conditionExpression is true, the loop statements execute. If the value of condition is false, the for loop terminates. (If the condition expression is omitted entirely, the condition is assumed to be true.)
+The statement executes. To execute multiple statements, use a block statement ({ ... }) to group those statements.
+If present, the update expression incrementExpression is executed.
+Control returns to Step 2.
+The do...while statement repeats until a specified condition evaluates to false.
+
+A do...while statement looks as follows:
+
+do
+  statement
+while (condition);
+Copy to Clipboard
+statement is always executed once before the condition is checked. (To execute multiple statements, use a block statement ({ ... }) to group those statements.)
+
+If condition is true, the statement executes again. At the end of every execution, the condition is checked. When the condition is false, execution stops, and control passes to the statement following do...while.
+Use the break statement to terminate a loop, switch, or in conjunction with a labeled statement.
+
+When you use break without a label, it terminates the innermost enclosing while, do-while, for, or switch immediately and transfers control to the following statement.
+When you use break with a label, it terminates the specified labeled statement.
+The syntax of the break statement looks like this:
+
+break;
+break [label];
+Copy to Clipboard
+The first form of the syntax terminates the innermost enclosing loop or switch.
+The second form of the syntax terminates the specified enclosing labeled statement.
+The continue statement can be used to restart a while, do-while, for, or label statement.
+
+When you use continue without a label, it terminates the current iteration of the innermost enclosing while, do-while, or for statement and continues execution of the loop with the next iteration. In contrast to the break statement, continue does not terminate the execution of the loop entirely. In a while loop, it jumps back to the condition. In a for loop, it jumps to the increment-expression.
+When you use continue with a label, it applies to the looping statement identified with that label.
+The syntax of the continue statement looks like the following:
+
+continue [label];
