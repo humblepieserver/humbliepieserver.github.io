@@ -11,3 +11,21 @@ Editig for web doesn't have to stop there though for you are alos able to add im
 In able to insert an actual image you must insert the url of whatever image you're trying to use.  The url is what appears at the top of the adress bar.  
 Inserting images will only work if the image you want to use can be found on the internet but it won't all come together unless you have a source to better express the image you want to upload
 Example: (<img_src="")
+JavaScript is versatile and beginner-friendly. With more experience, you'll be able to create games, animated 2D and 3D graphics, comprehensive database-driven apps, and much more!
+
+JavaScript itself is relatively compact, yet very flexible. Developers have written a variety of tools on top of the core JavaScript language, unlocking a vast amount of functionality with minimum effort. These include:
+
+Browser Application Programming Interfaces (APIs) built into web browsers, providing functionality such as dynamically creating HTML and setting CSS styles; collecting and manipulating a video stream from a user's webcam, or generating 3D graphics and audio samples.
+Third-party APIs that allow developers to incorporate functionality in sites from other content providers, such as Twitter or Facebook.
+Third-party frameworks and libraries that you can apply to HTML to accelerate the work of building sites and applications.
+
+Variable	Explanation	Example
+String	This is a sequence of text known as a string. To signify that the value is a string, enclose it in single quote marks.	let myVariable = 'Bob';
+Number	This is a number. Numbers don't have quotes around them.	let myVariable = 10;
+Boolean	This is a True/False value. The words true and false are special keywords that don't need quote marks.	let myVariable = true;
+Array	This is a structure that allows you to store multiple values in a single reference.	let myVariable = [1,'Bob','Steve',10];
+Refer to each member of the array like this:
+myVariable[0], myVariable[1], etc.
+Object	This can be anything. Everything in JavaScript is an object and can be stored in a variable. Keep this in mind as you learn.	let myVariable = document.querySelector('h1');
+All of the above examples too.
+So why do we need variables? Variables are necessary to do anything interesting in programming. If values couldn't change, then you couldn't do anything dynamic, like personalize a greeting message or change an image displayed in an image gallery.
